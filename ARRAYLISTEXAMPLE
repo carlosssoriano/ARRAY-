@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+public class ArraylistExample {
+    public static void main (String[] args) {
+        
+    ArrayList <Integer> numbers = new ArrayList<>();
+    
+    numbers.add(10);
+    numbers.add(20);
+    numbers.add(30);
+    
+    System.out.println("Elements in the ArrayList: ");
+        for (int number:numbers) {
+            System.out.println(number);
+    }
+    
+    numbers.set(1,25);
+    System.out.println("Updated ArrayList: ");
+        for (int number:numbers) {
+            System.out.println(numbers);
+    }
+    
+    numbers.remove(2);
+    System.out.println("ArrayList after removing an element");
+    for (int number:numbers) {
+       System.out.println(number);
+       
+        
+        }
+    }
+}
